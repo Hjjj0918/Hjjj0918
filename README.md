@@ -1,19 +1,16 @@
 # Hi there 👋, I'm Huang Jiangzixuan
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?user=Hjjj0918&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
-</p>
-
-- 🎓 **HKU** Computer Science Sophomore
-- 🤖 **RoboMaster** Vision Group Member
-- 🛠 Currently working on an AI-powered active recall companion that automatically transforms course materials into organized, chapter-based quizzes for streamlined learning and mastery.
+- 🎓 **University of Hong Kong** | Computer Science
+- 🤖 **HKU RoboMaster** | Vision Group Member
+  - Specialized in industrial camera calibration and vision pipeline compilation.
+- 🛠 **Current Project: SmartReview** 
+  - An AI-powered active recall companion that automatically transforms course materials into organized, chapter-based quizzes.
+- 🔍 **Interests: Computer Vision**
+  - Passionate about **Vision-Language-Action (VLA) models**, real-time machine learning in robotics, and responsive vision systems.
 
 ### 💻 Tech Stack
-![My Skills](https://skillicons.dev/icons?i=cpp,cs,py,unity,opencv,sqlite,latex,git)
-
-### 📊 GitHub Stats
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hjjj0918&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+![My Skills](https://skillicons.dev/icons?i=cpp,cs,py,unity,opencv,mysql,latex,git)
 
 ---
 
-*“Non-stop learning”*
+*“Non-stop learning”* 🚀
