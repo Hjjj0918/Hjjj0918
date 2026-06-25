@@ -1,4 +1,4 @@
-# Hi there 👋, I'm Huang Jiangzixuan (黄江子轩)
+# Hi there 👋, I'm Huang Jiangzixuan
 
 - 🎓 **The University of Hong Kong** | Undergraduate in Computer Science
 - 🤖 **HKU RoboMaster Team** | Vision Group Member
