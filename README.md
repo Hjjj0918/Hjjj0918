@@ -1,30 +1,33 @@
-# Hi there 👋, I'm Huang Jiangzixuan
+# Hi there 👋, I'm Huang Jiangzixuan (黄江子轩)
 
-- 🎓 **University of Hong Kong** | Computer Science
-- 🤖 **HKU RoboMaster** | Vision Group Member
-  - Specialized in industrial camera calibration and vision pipeline compilation.
+- 🎓 **The University of Hong Kong** | Undergraduate in Computer Science
+- 🤖 **HKU RoboMaster Team** | Vision Group Member
+  - Specialized in real-time vision pipeline compilation, industrial camera calibration, and robust state estimation under adversarial dynamics.
 - 🛠 **Current Project: [Neural-Elo](https://github.com/Hjjj0918/Neural-Elo)**
-  - Replaces traditional 1D Elo ratings with a deep learning model that predicts CS:GO match outcomes from high-dimensional team features and player embeddings, then searches for the fairest 5v5 team split in milliseconds.
-- 🔍 **Interests: Computer Vision & AI Agents**
+  - Replaces traditional 1D Elo ratings with a deep neural network that predicts dynamic competitive outcomes from high-dimensional player embeddings and team features. Implements an optimized combinatorial search to discover the fairest pairing configuration in milliseconds—exploring non-linear skill synergy and team balancing heuristics analogous to multi-agent reward modeling.
+- 🔍 **Research Interests: Embodied AI, Physical AI, and Visuomotor Control**
 
-  - **AI Agent Architectures** — Fascinated by the design space of LLM-based autonomous agents, with Claude Code as a key reference:
-    - *Agentic Loop*: tight `observe → reason → act → observe` cycle where the model serves as planner, executor, and critic simultaneously.
-    - *Tool-Augmented Reasoning*: composable tool-suites (file I/O, shell, code editing, MCP servers) dynamically orchestrated to accomplish open-ended engineering tasks.
-    - *Context Management*: summarization, persistent memory, and task decomposition to maintain coherent intent across long-running sessions.
-    - *Graduated Autonomy*: permission model (allow/deny/ask) that implements alignment through constrained agency — the agent proposes, the human ratifies, and trust evolves over time.
-  - **Computer Vision** — Multi-modal perception (RGB, depth, LiDAR), object detection, instance segmentation, and 6-DoF pose estimation for dynamic robotic environments. Experienced with industrial camera calibration and real-time vision pipelines on edge compute.
+  - **Embodied AI & Agentic Control (VLA Frameworks)** — Fascinated by the intersection of high-level semantic reasoning and low-level physical execution. I study the design space of foundation models (LLMs/VLMs) extending into physical agency:
+    - *Closed-Loop Visuomotor Control*: Moving beyond open-loop execution to tight `Observe → Reason → Act` loops where multi-modal models serve as planner, executor, and critic.
+    - *Tool-Augmented Grounding*: Orchestrating composable tool-suites (simulators, ROS APIs, perception modules) to safely ground abstract instructions into concrete physical actions.
+    - *Context & Memory Management*: Exploring persistent state representations and hierarchy for long-horizon robot manipulation tasks.
+    - *Graduated Autonomy & Alignment*: Designing human-in-the-loop permission models where safety alignment is implemented through constrained physical agency.
+
+  - **Robust Robotic Perception & Sim-to-Real Adaptation** — Developing real-time, noise-resilient computer vision pipelines capable of surviving the domain shifts, latency, and sensor degradation of the physical world:
+    - *Dynamic State Estimation*: Object detection, instance segmentation, and 6-DoF pose estimation (PnP, Kalman filtering) for high-speed dynamic environments.
+    - *Perception-Control Coupling*: Investigating uncertainty-aware perception that feeds probability distributions (rather than fragile point estimates) into downstream RL policies to mitigate sim-to-real visual drift.
+    - *Hardware Deployment*: Experienced with edge computing profiling (CUDA), industrial camera/gimbal calibration, and ROS-based real-time data streams.
 
 - 🌐 **Personal Website**
   - [HJJJ's Personal Site](https://hjjj.top)
 - 📫 **Contact Me**
   - Email: u3628929@connect.hku.hk | 3669213934@qq.com
-  - 📱 **Socials**
-    - LinkedIn: [Huang Jiangzixuan](https://www.linkedin.com/in/jiangzixuan-huang-b583ab39a/)
-    - GitHub: You are already here! (https://github.com/Hjjj0918)
+- 📱 **Socials**
+  - LinkedIn: [Huang Jiangzixuan](https://www.linkedin.com/in/jiangzixuan-huang-b583ab39a/)
 
 ### 💻 Tech Stack
 ![My Skills](https://skillicons.dev/icons?i=cpp,cs,py,linux,unity,opencv,pytorch,mysql,latex,git)
 
 ---
 
-*“Non-stop learning”* 🚀
+*“Bridging the gap between bits and atoms.”* 🚀
