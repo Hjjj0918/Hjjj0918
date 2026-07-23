@@ -1,4 +1,4 @@
-# Huang Jiangzixuan (黄江子轩)
+# Huang Jiangzixuan
 
 *"Bridging the gap between bits and atoms."* 🚀
 
