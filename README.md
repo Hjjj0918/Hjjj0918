@@ -83,8 +83,7 @@ Built a custom **MiniUNet** with approximately 467K parameters for Gaussian heat
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
+<td colspan="2" valign="top">
 
 ### Ongoing Direction
 
