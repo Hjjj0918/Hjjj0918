@@ -1,80 +1,111 @@
 # Huang Jiangzixuan
 
-*"Bridging the gap between bits and atoms."* 🚀
+*"Bridging the gap between bits and atoms."*
 
----
+Undergraduate in Computer Science at **The University of Hong Kong** and Vision Group member of the **HKU RoboMaster Team**. I work on real-world perception systems, vision-language reasoning, autonomous agents, and embodied AI.
 
-Undergraduate in Computer Science at **The University of Hong Kong** and Vision Group member of the **HKU RoboMaster Team**, where I specialize in real-time vision pipeline compilation, industrial camera calibration, and robust state estimation under adversarial dynamics. My work sits at the intersection of deep learning, autonomous agents, and embodied AI — building systems that perceive, reason, and act.
+My current interests sit at the intersection of:
 
-## 🔍 Research
+- **Vision-language models:** spatial reasoning, visual grounding, and geometry-aware multimodal inference.
+- **Computer vision:** detection, segmentation, depth estimation, calibration, and robust state estimation.
+- **Autonomous systems:** perception-to-action pipelines, closed-loop control, and real-time deployment.
+
+## Research Interests
 
 <table width="100%">
 <tr>
 <td width="33%" valign="top">
 
-### 🧠 Foundation Models & Autonomous Agents
-<sup>DL & NLP</sup>
+### Foundation Models & Agents
 
-Fascinated by the reasoning, planning, and multi-modal capabilities of LLMs and VLMs, and the design space of autonomous agents:
+I am interested in how LLMs and VLMs reason, plan, use tools, and maintain context over long-horizon tasks.
 
-- **Context & Memory**: Persistent state representations and hierarchical memory structures for long-horizon task planning and complex problem-solving.
-- **Tool-Augmented Reasoning**: Orchestrating composable tool-suites (search APIs, code interpreters, simulators) to ground abstract instructions into reliable outputs.
-
-</td>
-<td width="33%" valign="top">
-
-### 🤖 Embodied AI & Visuomotor Control
-<sup>Agentic Frameworks</sup>
-
-Bridging high-level semantic reasoning and low-level physical execution through Vision-Language-Action (VLA) architectures:
-
-- **Closed-Loop Control**: Moving beyond open-loop to tight `Observe → Reason → Act` loops where multi-modal models serve as planner, executor, and critic.
-- **Graduated Autonomy**: Human-in-the-loop permission models where safety alignment is intrinsically implemented through constrained physical agency.
+- Tool-augmented reasoning
+- Persistent context and memory
+- Multimodal planning and evaluation
+- Agent reliability under incomplete observations
 
 </td>
 <td width="33%" valign="top">
 
-### 👁️ Computer Vision & Perception
-<sup>Robust Real-World Systems</sup>
+### Geometry-Aware Visual Reasoning
 
-Visual perception in dynamic physical environments, grounded in hands-on experience with industrial camera calibration and real-time pipeline optimization:
+I study whether explicit visual geometry can make VLM reasoning more reliable on real images.
 
-- **Dynamic State Estimation**: Object detection, instance segmentation, and 6-DoF pose estimation (PnP, Kalman filtering) for high-speed environments.
-- **Sim-to-Real Adaptation**: Uncertainty-aware perception feeding probability distributions into downstream policies to mitigate visual domain drift.
-- **Pipeline Integration**: Real-time CV pipeline compilation and optimization — CUDA profiling, camera/gimbal calibration, and ROS-based data streams.
+- Object-level spatial representations
+- Depth and segmentation assisted reasoning
+- Spatial relation and physical-size questions
+- Separating perception failures from reasoning failures
+
+</td>
+<td width="33%" valign="top">
+
+### Real-World Perception Systems
+
+I build and optimize perception pipelines for dynamic physical environments.
+
+- Object detection and instance segmentation
+- Camera calibration and 6-DoF pose estimation
+- PnP, Kalman filtering, and state estimation
+- CUDA, OpenCV, and real-time CV optimization
 
 </td>
 </tr>
 </table>
 
-## 🛠 Projects
+## Projects
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 [Sixshot](https://github.com/Hjjj0918/Aimlab-sixshot)
+### [GeoVLM-SceneReasoner](https://github.com/Hjjj0918/GeoVLM-SceneReasoner)
 
-Real-time deep learning aim bot for Aimlab Sixshot: screen capture → target detection → hardware mouse control at 100+ FPS. Built a custom **MiniUNet** (~467K params) regressing Gaussian heatmaps for pixel-precise target localization, kernel-level mouse injection via Interception driver + SendInput to bypass Raw Input, and adaptive flick with dynamic braking for robust multi-target scenarios. End-to-end ML pipeline from interactive labeling to real-time inference.
+Geometry-aware visual reasoning pipeline for evaluating whether object detection, SAM2 segmentation, Depth Anything V2 relative depth, and object-level geometry can improve VLM spatial reasoning.
+
+The project builds a staged benchmark pipeline:
+
+```text
+image -> detection -> segmentation -> depth -> geometry -> reasoning -> evaluation
+```
+
+Current features include YOLO detection, label normalization, SAM2 mask generation, depth estimation, object-level geometry extraction, reasoning prompt generation, a geometry-only rule baseline, and failure analysis that separates upstream perception errors from reasoning errors.
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ [Neural-Elo](https://github.com/Hjjj0918/Neural-Elo)
+### [Sixshot](https://github.com/Hjjj0918/Aimlab-sixshot)
 
-Replaces traditional 1D Elo ratings with a deep neural network that predicts dynamic competitive outcomes from high-dimensional player embeddings and team features. Implements an optimized combinatorial search to discover the fairest 5v5 pairing configuration in milliseconds — exploring non-linear skill synergy and team balancing analogous to multi-agent reward modeling.
+Real-time deep learning aim bot for Aimlab Sixshot. The system uses screen capture, target detection, and hardware mouse control at 100+ FPS.
+
+Built a custom **MiniUNet** with approximately 467K parameters for Gaussian heatmap regression, plus an end-to-end workflow from interactive labeling to real-time inference and adaptive flick control.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+
+### Ongoing Direction
+
+I am currently building toward a research portfolio around multimodal reasoning and real-world perception:
+
+- VLM spatial reasoning benchmarks
+- Geometry-enhanced visual question answering
+- Robust perception for robotics and embodied agents
+- Evaluation pipelines that expose failure modes instead of hiding them
 
 </td>
 </tr>
 </table>
 
-## 💻 Stack
+## Stack
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 ML & Vision
+### ML & Vision
 
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,opencv,cuda" />
@@ -85,7 +116,7 @@ PyTorch · OpenCV · CUDA
 </td>
 <td width="50%" valign="top">
 
-### 💻 Languages
+### Languages
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,cpp,cs,java,js" />
@@ -99,7 +130,7 @@ Python · C++ · C# · Java · JavaScript
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Robotics & Infra
+### Robotics & Infrastructure
 
 <p>
   <img src="https://skillicons.dev/icons?i=linux,ros,docker,git,mysql,latex" />
@@ -110,33 +141,19 @@ Linux · ROS · Docker · Git · MySQL · LaTeX
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Frontend
+### Frontend & Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vue,ts" />
+  <img src="https://skillicons.dev/icons?i=react,vue,ts,unity" />
 </p>
 
-React · Vue · TypeScript
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 Simulation & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=unity" />
-</p>
-
-Unity
+React · Vue · TypeScript · Unity
 
 </td>
 </tr>
 </table>
 
-## 🌐 Connect
+## Contact
 
 <p>
   <a href="https://hjjj.top"><img src="https://img.shields.io/badge/website-hjjj.top-4285F4?style=flat-square&logo=googlechrome&logoColor=white" /></a>
