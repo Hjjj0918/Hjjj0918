@@ -89,15 +89,6 @@ Built a custom **MiniUNet** with approximately 467K parameters for Gaussian heat
 </tr>
 </table>
 
-### Ongoing Direction
-
-I am currently building toward a research portfolio around multimodal reasoning and real-world perception:
-
-- VLM spatial reasoning benchmarks
-- Geometry-enhanced visual question answering
-- Robust perception for robotics and embodied agents
-- Evaluation pipelines that expose failure modes instead of hiding them
-
 ## Stack
 
 <table width="100%">
