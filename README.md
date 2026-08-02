@@ -56,6 +56,10 @@ I build and optimize perception pipelines for dynamic physical environments.
 ## Projects
 
 <table width="100%">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
 <tr>
 <td width="50%" valign="top">
 
@@ -66,7 +70,8 @@ Geometry-aware visual reasoning pipeline for evaluating whether object detection
 The project builds a staged benchmark pipeline:
 
 ```text
-image -> detection -> segmentation -> depth -> geometry -> reasoning -> evaluation
+image -> detection -> segmentation -> depth
+      -> geometry -> reasoning -> evaluation
 ```
 
 Current features include YOLO detection, label normalization, SAM2 mask generation, depth estimation, object-level geometry extraction, reasoning prompt generation, a geometry-only rule baseline, and failure analysis that separates upstream perception errors from reasoning errors.
@@ -82,8 +87,7 @@ Built a custom **MiniUNet** with approximately 467K parameters for Gaussian heat
 
 </td>
 </tr>
-<tr>
-<td colspan="2" valign="top">
+</table>
 
 ### Ongoing Direction
 
@@ -93,10 +97,6 @@ I am currently building toward a research portfolio around multimodal reasoning 
 - Geometry-enhanced visual question answering
 - Robust perception for robotics and embodied agents
 - Evaluation pipelines that expose failure modes instead of hiding them
-
-</td>
-</tr>
-</table>
 
 ## Stack
 
