@@ -87,6 +87,19 @@ Built a custom **MiniUNet** with approximately 467K parameters for Gaussian heat
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Slay the Spire Agent Harness](https://github.com/Hjjj0918/Auto_sts)
+
+LLM agent harness for connecting language-model policies to a real, stateful game environment. The system reads live Slay the Spire JSON states through a Communication Mod and local TCP bridge, calls an OpenAI-compatible model, and returns executable game commands.
+
+The project focuses on agent reliability rather than only game play: stale-response handling, timeout recovery, action validation, rule-based fallback, failed-action blacklisting, and hybrid execution where the LLM proposes high-level intent while the harness enforces legal and robust actions.
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ## Stack
